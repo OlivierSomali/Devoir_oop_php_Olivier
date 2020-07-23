@@ -50,7 +50,7 @@ class Camions{
         'sa marque est :' .  $this->getMarque()  . 'et le type de :'  . $this->getType() ;
     }
 }
- $camion = new Camions("Benne","MNV.456","toyota");
+ $camion = new Camions("Benne","MNV.456","toyota"); // appel de classe
  $camion->afficher_camion();
 
 
