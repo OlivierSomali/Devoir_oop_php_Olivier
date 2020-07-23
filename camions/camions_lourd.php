@@ -1,6 +1,6 @@
 <?php
 
-namespace Devoir_oop_php_Olivier\camions\Camions;
+Namespace Devoir_oop_php_Olivier\camions\Camions;
 
 class Camions{
 
@@ -46,12 +46,11 @@ class Camions{
     }
     public function afficher_camion() //fonction d'affichage
     {
-        echo 'le camion est:' .$this->getNom()  . '</br>' .
+        echo 'le camion est:' . $this->getNom()  . 
         'sa marque est :' .  $this->getMarque()  . 'et le type de :'  . $this->getType() ;
     }
 }
- $camion = new Camions("Benne","MNV.456","toyota"); // appel de classe
- $camion->afficher_camion();
+ 
 
 
 
