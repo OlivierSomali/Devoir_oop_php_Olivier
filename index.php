@@ -15,6 +15,9 @@ include('camions/fuso.php');
     <title>Document</title>
 </head>
 <body>
-    
+   <?php
+   
+   
+   ?> 
 </body>
 </html>
