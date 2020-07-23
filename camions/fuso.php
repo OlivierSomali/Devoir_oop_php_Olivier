@@ -7,7 +7,10 @@ class Fuso extends Camions{
     //attribut
     private $bagage;
 
-    pub
+    public function __construct($nom,$marque,$type)
+    {
+        parent::__construct($nom,$marque,$type);
+    }
 
 }
 
