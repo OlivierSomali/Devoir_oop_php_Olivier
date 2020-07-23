@@ -20,6 +20,11 @@ class camions{
     {
         return $this->nom;
     }
+    public function setNom($nom)
+    {
+        $this->nom=$nom;
+        return $this;
+    }
 }
 
 
