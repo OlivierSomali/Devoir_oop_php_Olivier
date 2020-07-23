@@ -25,6 +25,12 @@ class camions{
         $this->nom=$nom;
         return $this;
     }
+    public function getMarque()
+    {
+         return $this->marque;
+    }
+
+    public set
 }
 
 
