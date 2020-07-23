@@ -16,6 +16,10 @@ class Fuso extends Camions{
     {
         return $this->bagage;
     }
+    public function afficher_fuso()
+    {
+        echo 'et le bagage de :' . $this->getBagage();
+    }
 
 }
 
