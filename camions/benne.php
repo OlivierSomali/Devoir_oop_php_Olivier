@@ -9,6 +9,10 @@ class Benne extends Camions{
     {
         parent::__construct($nom,$marque,$type);
     }
+    public function getPoids()
+    {
+        return $this->poids;
+    }
 
     
 }
