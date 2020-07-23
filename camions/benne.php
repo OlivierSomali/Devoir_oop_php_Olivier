@@ -14,6 +14,11 @@ class Benne extends Camions{
         return $this->poids;
     }
 
+    public function afficher_benne()
+    {
+        echo 'avec le poid de :' . $this->getPoids();
+    }
+
     
 }
 
