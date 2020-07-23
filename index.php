@@ -1,3 +1,10 @@
+<?php
+use Devoir_oop_php_Olivier\camions\Camions\Camions;
+use Devoir_oop_php_Olivier\camions\Benne\Benne;
+use Devoir_oop_php_Olivier\camions\Fuso\Fuso;
+
+include
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
