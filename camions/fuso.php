@@ -12,6 +12,11 @@ class Fuso extends Camions{
         parent::__construct($nom,$marque,$type);
     }
 
+    public function getBagage()
+    {
+        return $this->bagage;
+    }
+
 }
 
 
