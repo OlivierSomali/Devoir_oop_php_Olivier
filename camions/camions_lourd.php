@@ -44,6 +44,11 @@ class camions{
         $this->type=$type;
         return $this;
     }
+    public function afficher_camion()
+    {
+        echo 'le camion est:' .$this->getNom()  . '</br>' .
+        'sa marque est :' .  $this->getMarque()  . 'et le type de :'  . $this->getType() ;
+    }
 }
 
 
