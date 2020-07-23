@@ -1,8 +1,8 @@
 <?php
 
-namespace Devoir_oop_php_Olivier\camions\camions;
+namespace Devoir_oop_php_Olivier\camions\Camions;
 
-class camions{
+class Camions{
 
     //attributs
     private $nom;
@@ -44,12 +44,14 @@ class camions{
         $this->type=$type;
         return $this;
     }
-    public function afficher_camion()
+    public function afficher_camion() //fonction d'affichage
     {
         echo 'le camion est:' .$this->getNom()  . '</br>' .
         'sa marque est :' .  $this->getMarque()  . 'et le type de :'  . $this->getType() ;
     }
 }
+ $camion = new Camions("Benne","MNV.456","toyota");
+ $camion->afficher_camion();
 
 
 
