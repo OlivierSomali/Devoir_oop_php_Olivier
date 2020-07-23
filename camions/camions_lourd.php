@@ -15,6 +15,11 @@ class camions{
         $this->marque=$marque; //initialisation des attributs dans le constructeur
         $this->type=$type;
     }
+
+    public function getNom()  //la fonction get magique
+    {
+        return $this->nom;
+    }
 }
 
 
