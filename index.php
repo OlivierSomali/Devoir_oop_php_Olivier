@@ -16,7 +16,17 @@ include('camions/fuso.php');
 </head>
 <body>
    <?php
-   
+   $camions =new Camions("Benne","MVN.678","toyota");
+   $camions->afficher_camion();
+
+   echo '</br>';
+
+   $benne = new Benne("100kg");
+   $benne->afficher_benne();
+   echo '</br>';
+
+   $fuso = new Fuso("grand");
+   $fuso->afficher_fuso();
    
    ?> 
 </body>
