@@ -8,6 +8,11 @@ class camions{
     private $nom;
     private $marque; // les droits d'acces
     private $type;
+
+    public function __construct($nom,$marque,$type)
+    {
+        
+    }
 }
 
 
