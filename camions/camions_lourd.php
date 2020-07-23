@@ -30,7 +30,11 @@ class camions{
          return $this->marque;
     }
 
-    public set
+    public function setMarque($marque)
+    {
+        $this->marque=$marque;
+        return $this;
+    }
 }
 
 
