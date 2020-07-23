@@ -35,6 +35,10 @@ class camions{
         $this->marque=$marque;
         return $this;
     }
+    public function getType()
+    {
+        return $this->type;
+    }
 }
 
 
