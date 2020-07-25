@@ -32,7 +32,7 @@ include('camions/dina.php');
    <?php
    $fuso = new Fuso("Mitsubishi","MFTBC","Isuzu");
    $fuso->afficher_fuso();
-
+    echo '</br>';
    
    ?> 
    <?php
