@@ -35,5 +35,9 @@ include('camions/dina.php');
 
    
    ?> 
+   <?php
+   $dina= new Dina("Dyna","123LMN","Toyota");
+   $dina->afficher_dina();
+   ?>
 </body>
 </html>
