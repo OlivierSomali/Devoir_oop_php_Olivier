@@ -5,11 +5,12 @@ use Devoir_oop_php_Olivier\camions\Camions\Camions;
 class Fuso extends Camions{
     
     //attribut
-    private $bagage;
+    private $bagage="vue";
 
     public function __construct($nom,$marque,$type)
     {
         parent::__construct($nom,$marque,$type);
+    
     }
 
     public function getBagage()
