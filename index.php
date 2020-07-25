@@ -22,13 +22,15 @@ include('camions/fuso.php');
    echo '</br>';*/
    ?>
    <?php
-   $benne = new Benne("100kg");
+   $benne = new Benne("Benne","MVN.789","Toyota");
    $benne->afficher_benne();
+
    echo '</br>';
    ?>
    <?php
-   $fuso = new Fuso("grand");
+   $fuso = new Fuso("Mitsubishi","MFTBC","Isuzu");
    $fuso->afficher_fuso();
+
    
    ?> 
 </body>
