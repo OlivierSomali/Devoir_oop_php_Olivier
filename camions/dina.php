@@ -11,6 +11,11 @@ class Dina extends Camions{
     {
         parent::__construct($nom,$marque,$type);
     }
+
+    public function getNbre_pneu()
+    {
+        return $this->nbre_pneu;
+    }
 }
 
 
