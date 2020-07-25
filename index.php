@@ -2,10 +2,12 @@
 use Devoir_oop_php_Olivier\camions\Camions\Camions;
 use Devoir_oop_php_Olivier\camions\Benne\Benne;
 use Devoir_oop_php_Olivier\camions\Fuso\Fuso;
+use Devoir_oop_php_Olivier\camions\Dina\Dina;
 
 include('camions/camions_lourd.php');
 include('camions/benne.php');
 include('camions/fuso.php');
+include('camions/dina.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
