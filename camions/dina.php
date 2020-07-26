@@ -19,7 +19,7 @@ class Dina extends Camions{
     public function afficher_dina()
     {
         echo 'le nom de camion est de:'  .  $this->getNom()  . 
-         'sa marque ' .$this->getMarque() . 'avec le type de:' . $this->getType() . 'et leur nombre de pneu:' .$this->getNbre_pneu() . 'pneus';
+        '&nbsp'.'sa marque ' .$this->getMarque() .'&nbsp'.'avec le type de:' . $this->getType()    . '&nbsp' . 'et leur nombre de pneu:' .$this->getNbre_pneu() . 'pneus';
     }
 }
 
