@@ -19,7 +19,7 @@ class Benne extends Camions{
     {
         echo '<h2>'.'le nom de camion est de:'  . $this->getNom() .
         '&nbsp'.'sa marque est de :' . $this->getMarque() .
-        '&nbsp'.'et le type de :' .$this->getType() . '&nbsp'.'avec le poid de :' . $this->getPoids() .'</h2>';
+        '&nbsp'.'et le type de :' .$this->getType() . '&nbsp'.'avec le poid de :' . $this->getPoids() .'kg'.'</h2>';
     }
 
     
