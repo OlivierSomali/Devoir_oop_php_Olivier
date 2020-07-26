@@ -19,9 +19,9 @@ class Fuso extends Camions{
     }
     public function afficher_fuso()
     {
-        echo  'le nom de camion est de:'  . $this->getNom()   .
+        echo  '<h2>'. 'le nom de camion est de:'  . $this->getNom()   .
         '&nbsp'.'sa marque est de :' . $this->getMarque() .
-        '&nbsp'.'et le type de :' .$this->getType() . '&nbsp'.'et le bagage de :' . $this->getBagage();
+        '&nbsp'.'et le type de :' .$this->getType() . '&nbsp'.'et le bagage de :' . $this->getBagage() .'</h2>';
     }
 
 }
