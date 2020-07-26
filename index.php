@@ -17,12 +17,7 @@ include('camions/dina.php');
     <title>Document</title>
 </head>
 <body>
-   <?php
-   /*$camions =new Camions("Benne","MVN.678","toyota");
-   $camions->afficher_camion();
-
-   echo '</br>';*/
-   ?>
+   
    <?php
    $benne = new Benne("Benne","MVN.789","Toyota");
    $benne->afficher_benne();
