@@ -17,9 +17,9 @@ class Benne extends Camions{
 
     public function afficher_benne()
     {
-        echo 'le nom de camion est de:'  . $this->getNom() .
+        echo '<h2>'.'le nom de camion est de:'  . $this->getNom() .
         '&nbsp'.'sa marque est de :' . $this->getMarque() .
-        '&nbsp'.'et le type de :' .$this->getType() . '&nbsp'.'avec le poid de :' . $this->getPoids();
+        '&nbsp'.'et le type de :' .$this->getType() . '&nbsp'.'avec le poid de :' . $this->getPoids() .'</h2>';
     }
 
     
