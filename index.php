@@ -18,28 +18,28 @@ include('camions/dina.php');
 </head>
 <body>
    <?php
-   $camions =new Camions("Benne","MVN.678","toyota");
+   $camions =new Camions("Benne","MVN.678","toyota"); //appel de fa classe parent
    echo '</br>';
    $camions->afficher_camion();
 
    echo '</br>';
    ?>
    <?php
-   $benne = new Benne("Benne","MVN.789","Toyota");
+   $benne = new Benne("Benne","MVN.789","Toyota");//appel de la classe fille
    echo '</br>';
    $benne->afficher_benne();
 
    echo '</br>';
    ?>
    <?php
-   $fuso = new Fuso("Mitsubishi","MFTBC","Isuzu");
+   $fuso = new Fuso("Mitsubishi","MFTBC","Isuzu");//appel de la classe fille
    echo '</br>';
    $fuso->afficher_fuso();
     echo '</br>';
    
    ?> 
    <?php
-   $dina= new Dina("Dyna","123LMN","Toyota");
+   $dina= new Dina("Dyna","123LMN","Toyota");//appel de la classe fille
    echo '</br>';
    $dina->afficher_dina();
    ?>
