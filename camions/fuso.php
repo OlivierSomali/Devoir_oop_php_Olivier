@@ -7,17 +7,17 @@ class Fuso extends Camions{
     //attribut
     private $bagage="grand";
 
-    public function __construct($nom,$marque,$type)
+    public function __construct($nom,$marque,$type) //constructeur
     {
-        parent::__construct($nom,$marque,$type);
+        parent::__construct($nom,$marque,$type);//appel de constructeur parent
     
     }
 
-    public function getBagage()
+    public function getBagage() //la fonction magique get
     {
         return $this->bagage;
     }
-    public function afficher_fuso()
+    public function afficher_fuso() // fonction d'affichage
     {
         echo  '<h2>'. 'le nom de camion est de:'  . $this->getNom()   .
         '&nbsp'.'sa marque est de :' . $this->getMarque() .
