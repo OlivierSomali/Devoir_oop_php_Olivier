@@ -20,12 +20,12 @@ class Camions{
     {
         return $this->nom;
     }
-    public function setNom($nom)
+    public function setNom($nom) //la fonction set magique
     {
         $this->nom=$nom;
         return $this;
     }
-    public function getMarque()
+    public function getMarque() // la fonction get magique
     {
          return $this->marque;
     }
